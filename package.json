@@ -1,0 +1,29 @@
+{
+    "name": "shopware",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "Shopware Listing",
+    "main": "dist/main.js",
+    "scripts": {
+        "dev": "npx vite",
+        "preview": "npx vite preview",
+        "build": "npx vite build"
+    },
+    "keywords": [],
+    "author": "Piotr Machacki",
+    "license": "ISC",
+    "dependencies": {
+        "bootstrap": "^5.3.0",
+        "bootstrap-vue": "^2.23.1",
+        "vue": "^3.3.4"
+    },
+    "devDependencies": {
+        "@typescript-eslint/parser": "^5.60.1",
+        "@vitejs/plugin-vue": "^4.2.3",
+        "eslint": "^8.41.0",
+        "eslint-plugin-html": "^7.1.0",
+        "eslint-plugin-vue": "^9.14.1",
+        "sass": "^1.63.6",
+        "vite": "^4.3.9"
+    }
+}
